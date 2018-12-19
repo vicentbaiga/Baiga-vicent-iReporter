@@ -1,0 +1,151 @@
+body
+{
+    font-family:  Raleway, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #47c9af;
+}
+
+.box
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 600px;
+    padding: 40px;
+    -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    text-align: center;
+    border-radius: 2%;
+    background-color: #0B3B39;
+    -webkit-box-shadow: -7px 7px 33px -4px rgba(0,0,0,.75);
+            box-shadow: -7px 7px 33px -4px rgba(0,0,0,.75);
+}
+
+.box h1
+{
+    font-weight: 1000;
+    color: #fff;
+}
+
+.box input[type='text'],
+.box input[type='password']
+{
+    display: block;
+    width: 350px;
+    margin: 20px auto;
+    padding: 14px 10px;
+    -webkit-transition: .25s;
+         -o-transition: .25s;
+            transition: .25s;
+    text-align: left;
+    color: #fff;
+    border: none;
+    border: 2px solid #fff;
+    border-radius: 6px;
+    outline: none;
+    background: none;
+}
+
+
+.box input[type='submit']
+{
+    display: block;
+    margin: 20px auto;
+    padding: 14px 40px;
+    cursor: pointer;
+    -webkit-transition: .25s;
+         -o-transition: .25s;
+            transition: .25s;
+    text-align: center;
+    color: #fff;
+    border: none;
+    border: 2px solid #2ecc71;
+    border-radius: 6px;
+    outline: none;
+    background: none;
+}
+.box input[type='submit']:hover
+{
+    background: #2ecc71;
+}
+*Header*/
+header{
+    background: #2e546b;
+    color: #ffffff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #1db9e8 3px solid;
+}
+
+header a{
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+header li{
+    float: left;
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+
+header #brand{
+    float: left;
+}
+
+header #branding h1{
+    margin:0;
+}
+
+header nav{
+    float:right;
+    margin-top: 10px;
+}
+
+header .highlight, header .current a{
+    color: #cca9e4;
+    font-weight: bold;
+}
+
+header a:hover{
+    color: #cccccc;
+    font-weight: bold;
+}
+#landing{
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+#landing .flex-container-3 .col{
+    float:left;
+    width: 30%;
+    width: 30%;
+    padding: 10px;
+    text-align: center;
+}
+
+#landing .flex-container-3 .col img{
+    width: 300px;
+    height: 300px;
+    margin-top: 50px;
+}
+
+#landing form{
+    float:right;
+    margin-top: 20px;
+}
+
+#landing input{
+    padding: 8px;
+    height: 25px;
+    width: 250px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#landing h6{
+    font-size: 15px;
+}
