@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+   <meta charset='utf-8'>
+  
+   <link rel="stylesheet" href="styles.css">
+   
+</head>
+<body>
+
+<div id='cssmenu'>
+<ul>
+   <li class='active'><a href='#'>Home</a></li>
+   <li><a href='Admin.html'>Interventions</a></li>
+   <li><a href='index.html'>Sign Out </a></li>
+
+</ul>
+</div>
+
+<body>
+    <section class="main-wrapper">
+
+        <div>
+            <h1 align="center">Administrator Intervention View</h1>
+            <table class="table1" id="Red-Flags">
+                <tr>
+                    <th>Intervention</th>
+                    <th>Status</th>
+                    <th>Created On</th>
+                    <th>Action</th>
+                </tr>
+                <tr>
+                    <td>Poor condition of Roads </td>
+                    <td>Solved</td>
+                    <td>12/08/2018</td>
+                    <td>
+                        <input type="submit" name="btn-delete" id="delete-btn" onclick="clickAlert()" class="btn" value="delete" />
+                        <a href="#"><input type="submit" name="btn-edit" id="edit-btn" class="btn" value="edit" /></a>
+                        <a href="#"><input type="submit" name="btn-status" class="btn" id="status-btn" value="Change Record Status" /></a>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td>Money was received was less than what was sent</td>
+                    <td>Rejected</td>
+                    <td>11/11/2018</td>
+                    <td>
+                        <input type="submit" id="delete-btn" name="btn-delete" onclick="clickAlert()" class="btn" value="delete" />
+                        <a href="#"><input type="submit" name="btn-edit" id="edit-btn" class="btn" value="edit" /></a>
+                        <a href="#"><input type="submit" name="btn-status" class="btn" id="status-btn" value="Change Record Status" /></a>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td>Delayed Payment of workers </td>
+                    <td>Solved</td>
+                    <td>12/09/2018</td>
+                    <td>
+                        <input type="submit" name="btn-delete" id="delete-btn" onclick="clickAlert()" class="btn" value="delete" />
+                        <a href="#"><input type="submit" name="btn-edit" class="btn" id="edit-btn" value="edit" /></a>
+                        <a href="#"><input type="submit" name="btn-status" class="btn" id="status-btn" value="Change Record Status" /></a>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td>Stocking of Expired Drugs</td>
+                    <td>Rejected</td>
+                    <td>17/08/2018</td>
+                    <td>
+                        <input type="submit" name="btn-delete" id="delete-btn" onclick="clickAlert()" class="btn" value="delete" />
+                        <a href="#"><input type="submit" name="btn-edit" class="btn" id="edit-btn" value="edit" /></a>
+                        <a href="#"><input type="submit" name="btn-status" class="btn" id="status-btn" value="Change Record Status" /></a>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td>An authorised transfer of money.</td>
+                    <td>Pending</td>
+                    <td>15/01/2018</td>
+                    <td>
+                        <input type="submit" name="btn-delete" id="delete-btn" onclick="clickAlert()" class="btn" value="delete" />
+                        <a href="#"><input type="submit" name="btn-edit" class="btn" id="edit-btn" value="edit" /></a>
+                        <a href="#"><input type="submit" name="btn-status" class="btn" id="status-btn" value="Change Record Status" /></a>
+
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </section>
+
+
+    <script>
+        function clickAlert() {
+            window.alert("Are you sure?");
+        }
+    </script>
+    
+</body>
+
+</html>

@@ -1,0 +1,80 @@
+ #map {
+        height: 400px;  
+        width: 100%;
+       }
+h1 {
+  color: #648880;
+}
+h1 {
+  margin-bottom: 22px;
+}
+h1 {
+  font-size: 36px;
+  line-height: 44px;
+}
+form {
+  margin-bottom: 1px;
+  width: 500px;
+  margin: 0 auto;
+  border-radius: 0%;
+
+}
+.lead {
+  text-align: center;
+}
+.lead p {
+  font-size: 21px;
+  line-height: 33px;
+}
+input,
+select,
+textarea {
+  font: 100 16px/22px "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.register-group label {
+  color: #648880;
+  cursor: pointer;
+  font-weight: 400;
+}
+.register-group input,
+.register-group select,
+.register-group textarea {
+  border: 1px solid #c6c9cc;
+  border-radius: none;
+  color: #888;
+  display: block;
+  margin: 5px 0 27px 0;
+  padding: 5px 8px;
+}
+.register-group input,
+.register-group textarea {
+  width: 100%;
+}
+.register-group select {
+  height: 34px;
+  width: 60px;
+}
+.register-group textarea {
+  height: 78px;
+}
+
+.btn {
+  background-color: #4CAF50; 
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 12px;
+  width: 20%;
+}
+.btn {
+  -webkit-transition-duration: 0.4s; 
+  transition-duration: 0.4s;
+}
+.btn:hover {
+  background-color: #4CAF50; 
+  color: white;
+}

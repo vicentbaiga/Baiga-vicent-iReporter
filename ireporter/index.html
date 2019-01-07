@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html >
+<head>
+   <meta charset='utf-8'>
+  <link rel="stylesheet" href="css/logstyle.css">
+   <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div id='cssmenu'>
+<ul>
+   <li class='active'><a href='index.html'>IREPORTER</a></li>
+    <li><a href='signup.html'>Sign Up</a></li>
+   <li><a href='index.html'>Login </a></li>
+  <li><a href='forgot.html'>Forgot Password</a></li>
+
+</ul>
+</div>
+<title>i REPORTER LOGIN </title>
+
+<body>
+
+    <form action="inter.html" class="box" method="POST">
+
+      <h1> IReporter Login</h1>
+      <div class="login-input">
+      <input type="text" placeholder="Username">
+      <input type="password" placeholder="Password">
+      <input type="submit" onclick="clickAlert()" value="Login in">
+      </div>
+     <div class="checkbox">
+     <input type="checkbox" name="remember-me">
+     <label id="remember">Remember me</label>
+      </div>
+      <div class="forget">
+      <label id="forgot"><a href="forgot.html">Forgot Password</a></label>
+      </div>
+      <div class="already-member">
+      <span>Dont have an account, <a href="signup.html">signup</a>.</span>
+      </div>
+       <div class="already-member">
+      <span>ADMINISTRATOR <a href="adminlogin.html">Login</a>.</span>
+      </div>
+
+    </form>
+    <script>
+        function clickAlert() {
+            window.alert("Login Sucessful. Click ok to Proceed");
+        }
+    </script>
+</body>
+</html>
